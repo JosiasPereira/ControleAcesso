@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
 public class Usuario implements Serializable {
@@ -20,6 +21,7 @@ public class Usuario implements Serializable {
 	@Column(name="senha")
 	private String senha;
 
+	@Id
 	public Integer getId() {
 		return id;
 	}
