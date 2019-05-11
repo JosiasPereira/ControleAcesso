@@ -12,7 +12,7 @@ import com.ControleAcesso.Service.AcessoService;
 		value="/login",
 		consumes=MediaType.APPLICATION_JSON_UTF8_VALUE,
 		produces=MediaType.APPLICATION_JSON_UTF8_VALUE)
-public class Acesso {
+public class AcessoController {
 	
     @Autowired
 	AcessoService acessoService;

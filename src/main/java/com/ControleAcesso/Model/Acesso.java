@@ -41,4 +41,52 @@ public class Acesso implements Serializable {
 	
 	@Column(name = "executar")
 	private Boolean executar;
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
+	}
+
+	public Objeto getObjeto() {
+		return objeto;
+	}
+
+	public void setObjeto(Objeto objeto) {
+		this.objeto = objeto;
+	}
+
+	public Boolean getLer() {
+		return ler;
+	}
+
+	public void setLer(Boolean ler) {
+		this.ler = ler;
+	}
+
+	public Boolean getEscrever() {
+		return escrever;
+	}
+
+	public void setEscrever(Boolean escrever) {
+		this.escrever = escrever;
+	}
+
+	public Boolean getExecutar() {
+		return executar;
+	}
+
+	public void setExecutar(Boolean executar) {
+		this.executar = executar;
+	}
 }
